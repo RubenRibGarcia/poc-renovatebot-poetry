@@ -214,7 +214,7 @@ pyOpenSSL = "17.5.0"
 python-dateutil = "2.7.3"
 promise = "2.3"
 black = "^21.5b1"
-google-api-core = "^1.20.0"
+google-api-core = "1.20.0"
 
 [tool.poetry.dev-dependencies]
 django_mock_queries = "2.1.5"
@@ -243,9 +243,9 @@ flake8 = "3.8.3"
 flake8-bugbear = "20.1.4"
 flake8-pytest-style = "1.2.2"
 pep8-naming = "0.11.1"
-pywatchman = "^1.4.1"
+pywatchman = "1.4.1"
 coverage = "5.5"
-pytest-env = "^0.6.2"
+pytest-env = "0.6.2"
 
 
 [[tool.poetry.source]]
