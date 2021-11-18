@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "config:base",
+    ":dependencyDashboard"
+  ],
+  "timezone": "UTC",
+  "automerge": false,
+  "versioning": "poetry",
+  "rangeStrategy": "pin",
+  "major": {
+    "enabled": false
+  },
+  "reviewers": ["RubenRibGarcia"],
+  "schedule": ["every weekday"],
+  "prConcurrentLimit": 4,
+  "branchConcurrentLimit": 4,
+  "dependencyDashboardAutoclose": true,
+  "enabledManagers": ["poetry"],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+    "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "assignees": ["RubenRibGarcia"]
+  }
+}
