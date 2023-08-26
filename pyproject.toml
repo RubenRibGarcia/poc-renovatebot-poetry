@@ -204,7 +204,7 @@ snowden = "0.6.17"
 
 # Under the old requirements/production.txt
 newrelic = "5.12.1.141"
-uWSGI = "2.0.18"
+uWSGI = "2.0.22"
 
 # Add here known to be transitive dependencies that we can one day cleanup.
 html5lib = "1.0.1"
